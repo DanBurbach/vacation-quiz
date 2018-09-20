@@ -1,4 +1,4 @@
-#newyork, #tokyo, #paris, #rome, #barcelona, #london, #hongkong, #rhonda, #york, #dublin, #machupichu, #sydney, #grandcanyon, #florence, #buenosaires, #venice, #borabora, #angkorwat, #stlucia, #virginislands, #greatbarrierreef, #bavaria, #zanzibar, #athens, #havana {
+#newyork, #tokyo, #paris, #rome, #barcelona, #london, #hongkong, #ronda, #york, #dublin, #machupichu, #sydney, #grandcanyon, #florence, #buenosaires, #venice, #borabora, #angkorwat, #stlucia, #virginislands, #greatbarrierreef, #bavaria, #zanzibar, #athens, #havana {
   display: none;
 }
 
@@ -14,4 +14,6 @@
 
 img {
   border-radius: 50%;
+  height: 300px;
+  
 }
