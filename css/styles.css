@@ -1,3 +1,17 @@
-#letter {
+#newyork, #tokyo, #paris, #rome, #barcelona, #london, #hongkong, #rhonda, #york, #dublin, #machupichu, #sydney, #grandcanyon, #florence, #buenosaires, #venice, #borabora, #angkorwat, #stlucia, #virginislands, #greatbarrierreef, #bavaria, #zanzibar, #athens, #havana {
   display: none;
+}
+
+.answer1 {
+  float: left;
+  width: 50%;
+}
+
+.answer2 {
+  float: right;
+  width: 50%;
+}
+
+img {
+  border-radius: 50%;
 }
