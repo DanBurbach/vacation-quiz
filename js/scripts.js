@@ -1,10 +1,14 @@
 $(document).ready(function() {
-  function myFunction() {
-    var x = document.getElementById("myRadio");
-    x.checked = false;
-  }
+  var person = prompt("Please enter your name:", "Your name here");
 debugger
-    var person = prompt("Please enter your name:", "Your name here");
+$('#Reset').click(function(){
+   $('[data-toggle="buttons"] :radio').prop('checked', false);
+   $('[data-toggle="buttons"] label').removeClass('active');
+debugger
+   $('[data-toggle="buttons"] :radio:first').addClass('active');
+   $('[data-toggle="buttons"] label:first').addClass('active');
+});
+debugger
 debugger
     var Q1 = $("input:radio[name=Q1]:checked").val();
 
@@ -17,32 +21,6 @@ debugger
     var Q4 = $("input:radio[name=Q5]:checked").val();
 debugger
 
-    if (Q1 === "1A") {
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else if (){
-    } else (){
+    if Q1 = checked) {
     }
-
   });
