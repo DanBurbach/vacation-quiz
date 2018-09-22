@@ -1,9 +1,9 @@
 $(document).ready(function() {
   var person = prompt("Please enter your name:", "Your name here");
-debugger
     if (person !=null){
       document.getElementById("person").innerHTML = person;
       $("#greeting").show();
+      $("#test").show();
 
       event.preventDefault();
     }
@@ -21,35 +21,10 @@ debugger
     var Q5 = $("input:radio[name=Q5]:checked").val();
 debugger
 
-// Logic of radio buttons equalling a value;
-    if ($('input:radio[name=Q1, value=1A]:checked').val() === 'city');
-      else if ($('input:radio[name=Q1, value=1B]:checked').val() === 'landscape');
-debugger
-    if ($('input:radio[name=Q2, value=1A]:checked').val() === 'oceanview');
-      else if($('input:radio[name=Q2, value=1B]:checked').val() === 'mountainview');
-      else if($('input:radio[name=Q2, value=1C]:checked').val() === 'forestview');
-      else if($('input:radio[name=Q2, value=1D]:checked').val() === 'rollinghills');
-debugger
-    if ($('input:radio[name=Q3, value=1A]:checked').val() === 'food');
-      else if($('input:radio[name=Q3, value=1B]:checked').val() === 'history');
-      else if($('input:radio[name=Q3, value=1C]:checked').val() === 'people');
-      else if($('input:radio[name=Q3, value=1D]:checked').val() === 'shopping');
-      else if($('input:radio[name=Q3, value=1E]:checked').val() === 'arts');
-debugger
-    if ($('input:radio[name=Q4, value=1A]:checked').val() === 'music');
-      else if($('input:radio[name=Q4, value=1B]:checked').val() === 'relax');
-      else if($('input:radio[name=Q4, value=1C]:checked').val() === 'nightlife');
-      else if($('input:radio[name=Q4, value=1D]:checked').val() === 'walking');
-      else if($('input:radio[name=Q4, value=1E]:checked').val() === 'sports');
-debugger
-    if($('input:radio[name=Q5, value=1A]:checked').val() === 'casual');
-      else if($('input:radio[name=Q5, value=1B]:checked').val() === 'urban');
-      else if($('input:radio[name=Q5, value=1C]:checked').val() === 'rustic');
-
 //Below is interaction with radio button results;
 
 //newyork
-  if (city && oceanview && food && nightlife && urban) {
+  if ("Q1=1A" && "Q2=1A" && "Q3=1A" && "Q4=1C" && "Q5=1B") {
     $("#newyork").show();
   }
 //tokyo
@@ -102,5 +77,31 @@ debugger
 
 //havana
 
+// Logic of radio buttons equalling a value;
+    if ($('input:radio[name=Q1, value=1A]:checked').val() === 'city');
+      else if ($('input:radio[name=Q1, value=1B]:checked').val() === 'landscape');
+debugger
+    if ($('input:radio[name=Q2, value=1A]:checked').val() === 'oceanview');
+      else if($('input:radio[name=Q2, value=1B]:checked').val() === 'mountainview');
+      else if($('input:radio[name=Q2, value=1C]:checked').val() === 'forestview');
+      else if($('input:radio[name=Q2, value=1D]:checked').val() === 'rollinghills');
+debugger
+    if ($('input:radio[name=Q3, value=1A]:checked').val() === 'food');
+      else if($('input:radio[name=Q3, value=1B]:checked').val() === 'history');
+      else if($('input:radio[name=Q3, value=1C]:checked').val() === 'people');
+      else if($('input:radio[name=Q3, value=1D]:checked').val() === 'shopping');
+      else if($('input:radio[name=Q3, value=1E]:checked').val() === 'arts');
+debugger
+    if ($('input:radio[name=Q4, value=1A]:checked').val() === 'music');
+      else if($('input:radio[name=Q4, value=1B]:checked').val() === 'relax');
+      else if($('input:radio[name=Q4, value=1C]:checked').val() === 'nightlife');
+      else if($('input:radio[name=Q4, value=1D]:checked').val() === 'walking');
+      else if($('input:radio[name=Q4, value=1E]:checked').val() === 'sports');
+debugger
+    if($('input:radio[name=Q5, value=1A]:checked').val() === 'casual');
+      else if($('input:radio[name=Q5, value=1B]:checked').val() === 'urban');
+      else if($('input:radio[name=Q5, value=1C]:checked').val() === 'rustic');
+
+      event.preventDefault();
   });
 });
