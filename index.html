@@ -13,9 +13,11 @@
         <h1>Vacation Suggestion Quiz</h1>
       </div>
 
-      <h2>Greetings, <div id="person"></div> please select the answers that you find most true about vacationing</h2>
+        <div id="greeting">
+          <h3><strong>Greetings, <div id="person"></div> please select the answers that you find most true about vacationing</strong></h3>
+        </div>
 
-      <div id="test">
+      <form id="test">
         <div class="row">
           <div class="col-md-6">
             <h4><strong>Would you rather enjoy a trip to a city or to somewhere with a landscape?</strong></h4>
@@ -155,16 +157,13 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-md-6">
-          <button class="btn btn-info" onclick="showplaces();" type="submit">Submit</button>
+        <div class="row">
+          <div class="col-md-12">
+            <button class="btn btn-info" onclick="showplaces();" type="submit">Submit</button>
+          </div>
         </div>
-        <div class="col-md-6">
-          <button class="btn btn-info" id="reset">Reset</button>
-        </div>
-      </div>
+      </form>
 
       <div id="newyork">
         <img src="https://images.pexels.com/photos/529621/pexels-photo-529621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">

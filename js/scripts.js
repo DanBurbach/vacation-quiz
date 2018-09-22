@@ -1,13 +1,14 @@
 $(document).ready(function() {
   var person = prompt("Please enter your name:", "Your name here");
 debugger
-  $('#reset').click(function(){
-    $('[data-toggle="buttons"] :radio').prop('checked', false);
-    $('[data-toggle="buttons"] label').removeClass('active');
+    if (person !=null){
+      document.getElementById("person").innerHTML = person;
+      $("#greeting").show();
+
+      event.preventDefault();
+    }
 debugger
-    $('[data-toggle="buttons"] :radio:first').addClass('active');
-    $('[data-toggle="buttons"] label:first').addClass('active');
-});
+  $("form#test").submit(function(event) {
 debugger
     var Q1 = $("input:radio[name=Q1]:checked").val();
 
@@ -20,6 +21,7 @@ debugger
     var Q5 = $("input:radio[name=Q5]:checked").val();
 debugger
 
+// Logic of radio buttons equalling a value;
     if ($('input:radio[name=Q1, value=1A]:checked').val() === 'city');
       else if ($('input:radio[name=Q1, value=1B]:checked').val() === 'landscape');
 debugger
@@ -27,7 +29,6 @@ debugger
       else if($('input:radio[name=Q2, value=1B]:checked').val() === 'mountainview');
       else if($('input:radio[name=Q2, value=1C]:checked').val() === 'forestview');
       else if($('input:radio[name=Q2, value=1D]:checked').val() === 'rollinghills');
-      else if($('input:radio[name=Q2, value=1C]:checked').val() === 'forestview');
 debugger
     if ($('input:radio[name=Q3, value=1A]:checked').val() === 'food');
       else if($('input:radio[name=Q3, value=1B]:checked').val() === 'history');
@@ -45,4 +46,61 @@ debugger
       else if($('input:radio[name=Q5, value=1B]:checked').val() === 'urban');
       else if($('input:radio[name=Q5, value=1C]:checked').val() === 'rustic');
 
+//Below is interaction with radio button results;
+
+//newyork
+  if (city && oceanview && food && nightlife && urban) {
+    $("#newyork").show();
+  }
+//tokyo
+  else if (true) {
+
+  }
+//paris
+
+//rome
+
+//barcelona
+
+//london
+
+//hongkong
+
+//ronda
+
+//york
+
+//dublin
+
+//machupichu
+
+//sydney
+
+//grandcanyon
+
+//florence
+
+//buenosaires
+
+//venice
+
+//borabora
+
+//angkorwat
+
+//stlucia
+
+//virginislands
+
+//greatbarrierreef
+
+//bavaria
+
+//zanzibar
+
+//athens
+
+//havana
+
   });
+});
