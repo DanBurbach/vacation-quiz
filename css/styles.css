@@ -1,19 +1,20 @@
-#newyork, #tokyo, #paris, #rome, #barcelona, #london, #hongkong, #ronda, #york, #dublin, #machupichu, #sydney, #grandcanyon, #florence, #buenosaires, #venice, #borabora, #angkorwat, #stlucia, #virginislands, #greatbarrierreef, #bavaria, #zanzibar, #athens, #havana, #roadtrip, #greeting, #test, #jumbotron {
+#newyork, #tokyo, #paris, #rome, #barcelona, #london, #hongkong, #ronda, #york, #dublin, #machupicchu, #sydney, #grandcanyon, #florence, #buenosaires, #venice, #borabora, #angkorwat, #stlucia, #virginislands, #greatbarrierreef, #bavaria, #zanzibar, #athens, #havana, #roadtrip, #greeting, #test, #jumbotron, #results{
   display: none;
 }
 
-.answer1 {
-  float: left;
-  width: 50%;
+.jumbotron {
+  background-image: url("https://images.pexels.com/photos/461797/pexels-photo-461797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  text-shadow: 2px 1px 1px black;
 }
 
-.answer2 {
-  float: right;
-  width: 50%;
+.jumbotron h1 {
+  color: white;
 }
 
 img {
   border-radius: 50%;
   width: 500px;
-
+  padding-top: 25px;
 }

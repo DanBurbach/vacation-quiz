@@ -67,7 +67,7 @@ debugger
         $("#greeting").hide();
         $("#test").hide();
       } else if ((document.getElementById("2").checked)&&(document.getElementById("4").checked)&&((document.getElementById("8").checked)||(document.getElementById("11").checked))&&((document.getElementById("13").checked)||(document.getElementById("15").checked))&&((document.getElementById("17").checked)||(document.getElementById("19").checked))) {
-        $("#machupichu").show();
+        $("#machupicchu").show();
         $("#results").show();
         $("#greeting").hide();
         $("#test").hide();
