@@ -4,72 +4,195 @@ $(document).ready(function() {
       document.getElementById("person").innerHTML = person;
       $("#greeting").show();
       $("#test").show();
+      $("#jumbotron").show();
+    }
 debugger
   function showplaces() {
-    $("form#test").button(function(event) {
+    var Q1 = document.getElementById("Q1").value;
+    var Q2 = document.getElementById("Q2").value;
+    var Q3 = document.getElementById("Q3").value;
+    var Q4 = document.getElementById("Q4").value;
+    var Q5 = document.getElementById("Q5").value;
 debugger
-//    var Q1 = $("input:radio[name=Q1]:checked").val();
-//    var Q2 = $("input:radio[name=Q2]:checked").val();
-//    var Q3 = $("input:radio[name=Q3]:checked").val();
-//    var Q4 = $("input:radio[name=Q4]:checked").val();
-//    var Q5 = $("input:radio[name=Q5]:checked").val();
-debugger
-//Below is interaction with radio button results;
 //newyork
-  if (Q1 === 1 && Q2 === 1 && Q3 === 1 && Q4 === 3 && Q5 === 2) {
-    $("#newyork").show();
-    $("#greeting").hide();
-    $("#test").hide();
-  }
+      if ((Q1 === 1) && (Q2 === 1) && (Q3 === 1) && (Q4 === 3) && (Q5 === 2)); {
+        $("#newyork").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
+
 //tokyo
-
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#tokyo").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 //paris
+else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#paris").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//rome
+      //rome
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#rome").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//barcelona
+      //barcelona
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#barcelona").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//london
+      //london
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#london").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//hongkong
+      //hongkong
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#hongkong").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//ronda
+      //ronda
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#ronda").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//york
+      //york
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#york").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//dublin
+      //dublin
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#dublin").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//machupichu
+      //machupichu
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#machupichu").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//sydney
+      //sydney
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#sydney").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//grandcanyon
+      //grandcanyon
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#grandcanyon").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//florence
+      //florence
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#florence").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//buenosaires
+      //buenosaires
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#buenosaires").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//venice
+      //venice
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#venice").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//borabora
+      //borabora
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#borabora").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//angkorwat
+      //angkorwat
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#angkorwat").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//stlucia
+      //stlucia
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#stlucia").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//virginislands
+      //virginislands
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#virginislands").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//greatbarrierreef
+      //greatbarrierreef
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#greatbarrierreef").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//bavaria
+      //bavaria
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#bavaria").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//zanzibar
+      //zanzibar
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#zanzibar").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//athens
+      //athens
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#athens").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
-//havana
+      //havana
+      else if ((Q1 === 1) && (Q2 === 2) && (Q3 === 4) && (Q4 === 3) && (Q5 === 2)); {
+        $("#havana").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
 
+      else (){
+        $("#roadtrip").show();
+        $("#greeting").hide();
+        $("#test").hide();
+      }
       event.preventDefault();
-
   });
 });
