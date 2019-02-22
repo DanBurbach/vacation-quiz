@@ -11,6 +11,7 @@ A stable internet connection
 Understanding of HTML, CSS, JS, and jQuery
 (Optional) GitHub account
 (Optional) Atom Program
+(OR you can visit {https://vacation-quiz.herokuapp.com/index.html})
 
 ### Known Bugs
 Currently no known bugs. Most images are in a pic file and referenced from there. There are several pictures that are from a free content website and as such there is a chance that content might not appear due to content being moved.
