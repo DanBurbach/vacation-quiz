@@ -8,10 +8,14 @@ Main purpose is to show JS, jQuery, HTML and CSS creativity, use, consistancy of
 
 ### Setup/Installation Requirements
 A stable internet connection
+
 Understanding of HTML, CSS, JS, and jQuery
+
 (Optional) GitHub account
+
 (Optional) Atom Program
-(OR you can visit {https://vacation-quiz.herokuapp.com/index.html})
+
+(OR you can visit {https://vacation-quiz.herokuapp.com/index.html} where it is runnon on [Heroku]{https://www.heroku.com})
 
 ### Known Bugs
 Currently no known bugs. Most images are in a pic file and referenced from there. There are several pictures that are from a free content website and as such there is a chance that content might not appear due to content being moved.
