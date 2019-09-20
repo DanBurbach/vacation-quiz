@@ -1,5 +1,7 @@
 # Vacation Quiz
+![Personal Landing Page](https://github.com/DanBurbach/PersonalPortfolio/blob/master/src/assets/images/vacationquizscreenshot.png?raw=true)
 ## Week 8: Weekend project to create a JS and jQuery focused quiz.
+
 
 A webpage using input from the user and radio buttons to provide recommended vacation sites, v 1.0 (August 2018)
 By Daniel Burbach
